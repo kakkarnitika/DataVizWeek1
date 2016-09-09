@@ -1,0 +1,65 @@
+<html>
+<head>
+	<title> Data Viz Week 1 
+	</title>
+</head>
+<body>
+<h1> Data Viz Week1 
+</h1>
+
+<script> 
+// This is my javascript. I am going to write a program that describes objects in the room.
+// Then, I am going to console log those objects.
+// This program will include a string, a number, a boolean, an array, and an object. 
+
+// This is a string. It describes my location. 
+var mylocationString = "My room in Sukhdev Vihar";
+console.log("The name of mylocationString is:");
+console.log(mylocationString);
+console.log(typeof(mylocationString));
+console.log(" ");
+
+// This is a number. It describes the location of my room.
+var gateNumber = 5;
+console.log(gateNumber);
+console.log(typeof(gateNumber));
+var newGates = '3';
+var newGatesNumber = Number(newGates);
+console.log("The sum of our gates is:");
+console.log(gateNumber+newGates);
+console.log(gateNumber+newGatesNumber);
+console.log(' ');
+
+// This is a boolean. It describes the city in which My room in Sukhdev Vihar is located.
+var isInDelhi = true;
+console.log(isInDelhi);
+console.log(gateNumber<newGatesNumber);
+console.log(" ");
+
+//Now I'm going to create an array. The array will describe objects in the room.
+var roomArray = ["Bookshelves","Almirah","Speakers","Study table","Mattresses"];
+console.log(roomArray);
+
+// This is a variable for the length of my room array. It is one higher than the number of my final item.
+var roomArrayLength = roomArray.length;
+console.log(roomArrayLength);
+var lastItem = roomArray[roomArrayLength-1];
+console.log(lastItem);
+console.log(" ");
+
+// Now I will create an object to describe a book.
+var book = {
+name: "The Lost River",
+author: "Michel Danino",
+attributes: ["blue and yellow cover","357 pages","about Saraswati river","contains maps"]
+};
+console.log(book);
+var bookattributes = book.attributes;
+console.log(bookattributes);
+var firstattribute = bookattributes[0];
+console.log(firstattribute);
+
+</script>
+</body>
+
+</html>
